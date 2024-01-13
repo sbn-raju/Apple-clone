@@ -3,7 +3,7 @@
 <br>
 -It is the frontEnd project 
 <br>
--Recreating the apple himepage,focusing on replicationg its design and  responsivness,
+-Recreating the apple himepage,focusing on replicationg its design and
 pay attentaio in details as navigation,layouts,and interactive elements.
 <br>
--technologies using :- HTML,CSS,JS and Taliwind CSS.
+-technologies using :- HTML,CSS, BootStrap.

@@ -1,37 +1,352 @@
-    *{
-        margin: 0;
-        padding: 0;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .navbar{
-        height: 3rem;
-        width: 100%;
-        background-color: rgb(0,0,0,0.6);
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        top: 0;
-        position: sticky;
-    }
-    .navlist{
-        list-style: none;
-        height: 100%;
-        width: 80%;
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        
-    }
-    .nav-list-items{
-        margin: 0rem 1rem 0rem 1rem;
-        font-size: smaller;
-        color: white;
-        opacity: 0.7;
-    }
-    .nav-list-items:hover{
-        cursor: pointer;
-        opacity: 1;
-    }
-    .nav-list-items i{
-        font-size: medium;
-    }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 3rem;
+    width: 100%;
+    background-color: rgb(0,0,0,0.6);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    top: 0;
+    position: sticky;
+}
+.navlist{
+    list-style: none;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.nav-list-items{
+    margin: 0rem 1rem 0rem 1rem;
+    font-size: smaller;
+    color: white;
+    opacity: 0.7;
+}
+.nav-list-items:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.nav-list-items i{
+    font-size: medium;
+}
+
+/* hero-section */
+.hero-section{
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.subheading{
+    width: 100%;
+    height: 3rem;
+    background-color: #1d1d1f;
+    color: white;
+    font-size:0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section-main{
+    height: 47rem;
+    width: 100%;
+    background: url('/assets/hero1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.hero-section-main-heading{
+    width: 35%;
+    height: 15rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-section-main-heading h1{
+    font-size: 3rem;
+}
+.hero-section-main-heading p{
+
+    font-size: 1.6rem;
+}
+.hero-section-main-heading p a{
+    text-decoration: none;
+}
+.hero-section-main-heading p a:hover{
+    text-decoration: underline;
+}
+
+
+/* hero-section-two */
+.hero-section-two{
+    height: 30rem;
+    width: 100%;
+    background: url('/assets/hero2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.hero-section-three{
+    height: 45rem;
+    width: 100%;
+    margin-top: 1rem;
+    background: url('/assets/hero3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+}
+.hero-section-main-heading-three{
+    width: 40%;
+    height: 15rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-section-main-heading-three i{
+    font-size: 3rem;
+    margin-right: 0.8rem;
+}
+.hero-section-main-heading-three h1{
+    font-size: 2.4rem;
+}
+
+.hero-section-main-heading-three p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.buttons-container{
+    height: 2rem;
+    width:100%;
+}
+.btns{
+    padding:1rem 2rem 1rem 2rem;
+    background-color: white;
+    border: none;
+    color: black;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius: 2rem;
+    margin-right: 3rem;
+}
+
+
+
+
+/* main-section */
+.main-section{
+    width: 100%;
+    height:135rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.main-section-watch{
+    height: 45rem;
+    width: 47%;
+    margin: 0.5rem;
+    background: url('/assets/section-watches.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+}
+.main-section-watch-heading {
+    width: 40%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-section-watch-heading i{
+    font-size: 2rem;
+}
+.main-section-watch-heading h1{
+    font-size: 1.8rem;
+}
+.main-section-watch-heading h3{
+    font-size: 1rem;
+    color: orange;
+    
+}
+.main-section-watch-heading p{
+    font-size: 1.4rem;
+}
+.main-section-macbook{
+    height: 45rem;
+    width: 47%;
+    margin: 0.5rem;
+    background: url('/assets/og-macbook-pro-202310.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+}
+.main-section-macbook-heading {
+    width: 45%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-section-macbook-heading h1{
+    font-size:2.4rem;
+}
+.main-section-macbook-heading p{
+    font-size:1.4rem;
+}
+.main-section-ipad{
+    height: 45rem;
+    width: 47%;
+    margin: 0.5rem;
+    background: url('/assets/hero__ecv967jz1y82_large.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+}
+.main-section-airpods{
+    height: 45rem;
+    width: 47%;
+    margin: 0.5rem;
+    background: url('/assets/Apple-AirPods-Pro-2nd-gen-hero-220907_big.jpg.large.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+.main-section-homepodmini{
+    height: 45rem;
+    width: 47%;
+    margin: 0.5rem;
+    background: url('/assets/homepod-mini-select-ani-last-202110.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+}
+.main-section-tradein{
+    height: 45rem;
+    width: 47%;
+    margin: 0.5rem;
+    background: url('/assets/trade_in_phone_hands__gjoyhw76oqaa_large.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+}
+
+/* scroll-bar */
+.scroll-container{
+    height: 40rem;
+    width: 100%;
+    margin-bottom:5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.carousel {
+    width: 80%;
+    height: 100%;
+}
+.slide{
+    width: 80%;
+    height: 100%;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    height:50rem;
+    background-color: #f5f5f7;
+    color: black;
+    opacity: 0.8;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column
+}
+.information {
+    width: 70%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.information p{
+    width: 100%;
+    height: 15rem;
+    font-size: 0.8rem;
+}
+hr{
+    width: 70%;
+    background-color: black;
+}
+.footer-lists-container{
+    width: 70%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+.footer-lists{
+    list-style: none;
+}
+.footer-list-item{
+    font-size: 0.8rem;
+}
+.bold{
+    margin-top: 1.2rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.last-para{
+    font-size: 0.8rem;
+}
